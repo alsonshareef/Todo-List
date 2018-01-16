@@ -1,5 +1,53 @@
+body {
+	font-family: 'Dosis', sans-serif;
+	font-weight: 500;
+	background: #4CB8C4;  /* fallback for old browsers */
+background: -webkit-linear-gradient(left, #3CD3AD, #4CB8C4);
+background: -o-linear-gradient(left, #3CD3AD, #4CB8C4);
+background: linear-gradient(to right, #3CD3AD, #4CB8C4);  /* Chrome 10-25, Safari 5.1-6 */ /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
 h1 {
+	background: #2980b9;
+	color: white;
+	font-size: 29px;
+	font-weight: 420;
+	margin: 0;
+	padding: 5px 10px;
 	text-align: center;
+	text-transform: uppercase;
+}
+
+input {
+	font-size: 18px;
+	background: #f7f7f7;
+	box-sizing: border-box;
+	width: 100%;
+	padding: 13px 13px 13px 20px;
+	color: steelblue;
+}
+
+input:focus{
+	background: white;
+	border: 3px solid steelblue;
+	outline: none;
+}
+
+li {
+	background: #fff;
+	height: 40px;
+	line-height: 40px;
+}
+
+li:nth-child(2n) {
+	background: #f7f7f7;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
 }
 
 .completed {
@@ -8,8 +56,9 @@ h1 {
 }
 
 #container {
-	border: solid 4px grey;
+	box-shadow: 0 0 50px rgba(0, 0, 0, 0.4);
+	background-color: #f7f7f7;
 	width: 400px;
-	margin: 0 auto;
+	margin: 150px auto;
 }
 
