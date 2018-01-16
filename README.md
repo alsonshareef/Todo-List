@@ -1,3 +1,6 @@
-# Todo-List
+# Todo-List 
+*My First Project!*
 
-My First Project: A standard todo list
+A simple To-do list built with jQuery functionality
+
+
