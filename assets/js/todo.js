@@ -19,6 +19,11 @@ $("input[type='text']").keypress(function(event){
 		// remove input text from text box
 			$(this).val(null);
 		// add todoText as an li to the ul
-			$("ul").append("<li><span>X</span> " + todoText + "</li>");
+			$("ul").append("<li><span><i class='fa fa-trash'></i></span> " + todoText + "</li>");
 	}
+});
+
+// Toggle plus sign to show input box
+$(".fa-plus").click(function(){
+	$("input[type='text']").fadeToggle();
 });

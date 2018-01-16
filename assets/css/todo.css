@@ -5,7 +5,6 @@ body {
 background: -webkit-linear-gradient(left, #3CD3AD, #4CB8C4);
 background: -o-linear-gradient(left, #3CD3AD, #4CB8C4);
 background: linear-gradient(to right, #3CD3AD, #4CB8C4);  /* Chrome 10-25, Safari 5.1-6 */ /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
 }
 
 h1 {
@@ -48,6 +47,27 @@ ul {
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
+}
+
+.fa-plus {
+	float: right;
+}
+
+span {
+	background: #e04c35;
+	color: white;
+	text-align: center;
+	margin-right: 20px;
+	height: 40px;
+	width: 0;
+	display: inline-block;
+	transition: 0.2s linear;
+	opacity: 0;
+}
+
+li:hover span {
+	width: 40px;
+	opacity: 1.0;
 }
 
 .completed {
