@@ -1,5 +1,15 @@
+h1 {
+	text-align: center;
+}
+
+.completed {
+	color: grey;
+	text-decoration: line-through;
+}
+
 #container {
 	border: solid 4px grey;
 	width: 400px;
 	margin: 0 auto;
 }
+
